@@ -49,6 +49,8 @@ against, and the code that should be run if the value given to match fits that
 arm’s pattern. Rust takes the value given to match and looks through each arm’s
 pattern in turn.
 
+Using an `_` underscore in a match arm is a catchall value.
+
 ## Integers
 Integers are of type `i32`, a 32-bit integer, unless otherwise specified.
 
